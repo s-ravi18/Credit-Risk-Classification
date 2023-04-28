@@ -1,0 +1,19 @@
+Features for Credit Risk to be included in streamlit app:
+
+1. Name
+2. Age
+3. Annual Income
+4. Home Ownership
+5. Employement Length
+6. Loan Intent
+7. Loan Grade
+8. Loan Amount
+9. Loan Interest Rate
+10. Percent Income
+11. Historical Default
+12. Credit History Length
+
+---------------------
+To predict:
+
+loan_status - 0/1
