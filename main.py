@@ -5,6 +5,9 @@ from PIL import Image
 import sklearn
 import joblib
 import json
+import lightgbm
+# from lightgbm import LGBMClassifier
+
 
 ## Side Tab:
 l=["Introduction","Predict your Credit Score"]

@@ -1,0 +1,11 @@
+services:
+  - name: ml-prediction-api
+    type: web
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main.py --server.port $PORT --server.address 0.0.0.0̀
+    envVars:
+      - key: MODEL_PATH
+        value: best_pipeline.pkl
+source newenv/bin/activate
