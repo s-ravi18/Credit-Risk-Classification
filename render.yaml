@@ -8,4 +8,3 @@ services:
     envVars:
       - key: MODEL_PATH
         value: best_pipeline.pkl
-source newenv/bin/activate
